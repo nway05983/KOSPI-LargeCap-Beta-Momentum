@@ -16,10 +16,21 @@ var.keys() / var.values()
 특징 : 중복 허용하지 않음, 순서가 없음.
 s1.union(s2) / s1.intersection(2) / s1.difference(s2)
 
+# 오류 처리방법(try-except) #
+number = [1,2,3,"4",5]
+for i in number:
+    try:
+        print(i**2)
+    except:
+        print('Error at:'+i)
 
+# 함수 정의하기(def-return) #
+def sqrt(x):
+    res=x**(1/2)
+    return res
 
-
-
+# 람다 함수(lambda 매개변수1, 매개변수2: statement) #
+divide_lam=lambda x, n:x/n
 
 
 ### 자주 쓰이는 함수 ###
