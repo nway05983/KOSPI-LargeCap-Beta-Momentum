@@ -1,1 +1,28 @@
+### Python ###
 
+
+# 문자열 만들기 #
+""" 111 """ or ''' 111 '''
+
+# 문자열 포메팅(f-string)
+f'문자열 {변수} 문자열'
+
+# 딕셔너리 #
+var['key3']=3, print(var)
+{'keys':3}
+var.keys() / var.values()
+
+# 집합 #
+특징 : 중복 허용하지 않음, 순서가 없음.
+s1.union(s2) / s1.intersection(2) / s1.difference(s2)
+
+
+
+
+
+
+
+### 자주 쓰이는 함수 ###
+replace(‘전’, ‘후’)
+datetime.dateime.now() = a / a.date() / a.time() / a.strftime(‘%Y-%m-%d’)
+time.sleep(1)
